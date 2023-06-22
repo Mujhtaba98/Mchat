@@ -1,38 +1,104 @@
 .App {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: larger;
+}
+*{
+ background-color: #eee;
+}
+.app-header {
   text-align: center;
+  background-color: #3b5998;
+  color: white;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-container {
+  margin-top: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.room {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  display: grid;
+
+}
+
+.room label {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.room input {
+  width: 200px;
+  height: 30px;
+  border: 2px solid #3b5998;
+  border-radius: 6px;
+  padding-left: 5px;
+  font-size: 20px;
+  text-align: center;
+  margin: 5px;
+}
+
+.room button {
+  width: 210px;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+  padding-left: 5px;
+  font-size: 20px;
+  text-align: center;
+  margin: 5px;
+  background-color: #3b5998;
+  color: white;
+  cursor: pointer;
+}
+
+.sign-out {
+  margin-top: 50px;
+}
+
+.homepage {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 100vh;
+  justify-content: space-around;
+  background: #eee;
 }
 
-.App-link {
-  color: #61dafb;
+.l {
+  display: grid;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.r {
+  display: grid;
+  flex: 1;
+  justify-content: center;
+
+}
+
+p {
+  margin: 0;
+  font-size: 2rem;
+}
+
+h1 {
+  color: #2e8b57;
+  font-weight: 600;
+  font-size: 3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
