@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Mchat/static/css/main.0c8e6ef8.css",
+    "main.js": "/Mchat/static/js/main.011b4110.js",
+    "index.html": "/Mchat/index.html",
+    "main.0c8e6ef8.css.map": "/Mchat/static/css/main.0c8e6ef8.css.map",
+    "main.011b4110.js.map": "/Mchat/static/js/main.011b4110.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c8e6ef8.css",
+    "static/js/main.011b4110.js"
+  ]
+}
